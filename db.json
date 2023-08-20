@@ -1,0 +1,10 @@
+{
+  "posts": [
+    {
+      "customer": "Jonny",
+      "petName": "Tommy",
+      "email": "jony@yopmail.com",
+      "id": 5
+    }
+  ]
+}

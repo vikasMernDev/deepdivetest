@@ -1,0 +1,90 @@
+
+
+.petInfoWrap{
+    display: flex;
+    align-items: center;
+    /* height: 100vh; */
+    /* padding-bottom: 50px; */
+}
+
+/* form css */
+
+.petInfoWrap .secLeft{
+    background-color: #f7f7f7;
+    height: 100%;
+    width: 50%;
+    padding: 50px;
+}
+
+.petInfoWrap .secLeft .formCardWrap{
+    /* padding: 40px; */
+    /* background: #fff; */
+}
+
+.formInfo label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.petInfoWrap .secLeft .formInfo{
+    margin-bottom: 20px;
+}
+
+.formInfo input {
+    display: block;
+    width: 100%;
+    padding: 12px 20px;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+}
+
+.petInfoWrap .secLeft .form-table .secTitle{
+    text-align: center;
+    padding-bottom: 60px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+input.submitBtn {
+    background-color: #586d9f;
+    padding: 13px 30px;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* css close */
+
+/* table css */
+
+.petInfoWrap .secRight{
+    background-color: #ffffff59;
+    height: 100%;
+    padding: 50px;
+    width: 50%;
+}
+
+.tableWrap td, th {
+    
+    border: none;
+    border-bottom: 1px solid #bfbfbf;
+    text-align: left;
+    padding: 20px;
+    color: #2c2c2c;
+    font-size: 16px;
+}
+
+.tableTitle .secTitle{
+    text-align: center;
+    padding-bottom: 54px;
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.tableWrap{
+    overflow-y: auto;
+    max-height: 330px;
+    padding-bottom: 40px;
+}
